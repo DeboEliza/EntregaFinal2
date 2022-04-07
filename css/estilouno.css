@@ -1,0 +1,599 @@
+body, html {
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden; }
+
+main {
+  padding-top: 10rem;
+  background-color: #09ff00;
+  margin-bottom: -28px;
+  padding-bottom: 212px; }
+  main div article .titulo-principal {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 40px;
+    padding-top: 80px;
+    background-image: url(../assets/img/panel-solar1000.jpg);
+    background-repeat: no-repeat;
+    border: 8px solid black; }
+  main div article div .logo-grande {
+    display: block;
+    margin: auto;
+    width: 290px;
+    border: 10px solid black;
+    animation-name: paisaje-logo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 5s; }
+  main div article div p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px; }
+  main a img {
+    width: 300px;
+    padding: 50px;
+    height: 0.5 cm;
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+    margin-left: 50px; }
+
+.grid-container {
+  width: 90%;
+  margin: -21px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 200px 200px;
+  grid-column-gap: 10%; }
+
+.foto-imagen {
+  padding: 5px;
+  height: 0.5cm;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  transition: all 2s;
+  margin-left: 50px;
+  box-shadow: 0 0 20px #333; }
+  .foto-imagen .foto-imagen :hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    background-color: #caeceb; }
+
+.primerTexto {
+  padding-top: 0%;
+  margin-left: 15%; }
+
+main div div div table thead tr th {
+  font-size: 1em;
+  color: black; }
+
+main div .preguntas .otrasPreguntas .primer-pregunta {
+  margin-right: auto;
+  padding-left: 10%; }
+
+main .carusel-de-fotos .carusel-de-fotos1 {
+  margin-right: auto;
+  padding-left: 10%; }
+
+main .video .videoPosicion {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 60px;
+  margin-top: 30px; }
+
+main div div form {
+  margin-left: 138px;
+  margin-right: -659px; }
+
+main div .row div .card {
+  border: 15px solid #6eff0059;
+  border-radius: 2.25rem; }
+
+main div spam .tabla {
+  margin-left: 500px;
+  width: 0px; }
+
+main .row-de-nosotros {
+  margin-left: 0px;
+  padding-right: 20px; }
+  main .row-de-nosotros div .parrafo {
+    font-size: 25px; }
+
+@media only screen and (max-width: 420px) {
+  main div spam .tabla {
+    margin-left: -19px;
+    width: 0px; }
+  main div .row div .card {
+    border: 15px solid #6eff0059;
+    border-radius: 2.25rem; } }
+
+main .row {
+  margin-left: 97px;
+  padding-right: 18px; }
+  main .row .card {
+    border: 15px solid #6eff0059;
+    border-radius: 2.25rem; }
+
+@media only screen and (max-width: 420px) {
+  main .row {
+    margin-left: 2px;
+    padding-right: 18px; }
+    main .row .card {
+      border: 15px solid #6eff0059;
+      border-radius: 2.25rem; }
+      main .row .card .card-body .card-text {
+        font-size: 13px; } }
+
+@media only screen and (max-width: 420px) {
+  main {
+    padding-top: 3rem;
+    background-color: #09ff00; }
+    main div article .titulo-principal {
+      font-size: 25px;
+      color: #e3ee82;
+      text-align: center;
+      padding: 6px;
+      padding-top: 22px;
+      background-color: beige;
+      border: 5px solid black; } }
+
+@media only screen and (max-width: 420px) {
+  main {
+    padding-top: 7rem; }
+    main div article div .texto-principal {
+      text-align: center;
+      margin-top: -3px;
+      font-size: 15px;
+      padding: 11px; }
+    main div article div .logo-grande {
+      display: block;
+      margin: auto;
+      width: 121px;
+      border: 5px solid black; } }
+
+@media only screen and (max-width: 420px) {
+  main {
+    padding-top: 7rem; }
+    main .grid-container {
+      width: 90%;
+      margin: 38px;
+      margin-left: 120px;
+      display: grid;
+      grid-template-columns: 212px;
+      grid-template-rows: 230px 240px 470px;
+      grid-column-gap: 10%; }
+      main .grid-container .grid-item .foto-imagen {
+        padding: 5px;
+        height: 0.5cm;
+        width: 100px;
+        height: 100px;
+        transition: all 2s;
+        margin-left: -119px;
+        box-shadow: 0 0 20px #333; }
+      main .grid-container .grid-item .primerTexto {
+        text-align: center;
+        margin-top: -33px;
+        font-size: 15px;
+        padding: 42px;
+        margin-left: -109px; } }
+
+@media only screen and (max-width: 420px) {
+  main .imagenCasaGift {
+    margin-left: -209px; }
+    main .imagenCasaGift img {
+      width: 300px;
+      height: 200px; } }
+
+@media only screen and (max-width: 420px) {
+  main div div form {
+    margin-left: -7px;
+    margin-right: 0px; } }
+
+@media only screen and (max-width: 420px) {
+  main div .video {
+    margin-left: -412px;
+    width: 224px;
+    height: 372px; }
+    main div .video .videoPosicion {
+      padding-left: 55px;
+      padding-right: 211px;
+      margin-bottom: -37px;
+      position: relative;
+      padding-bottom: 121px;
+      margin-bottom: 150px;
+      margin-left: 380px; } }
+
+@media only screen and (max-width: 420px) {
+  main div .texto-principal {
+    margin-top: -38px;
+    font-size: 15px;
+    padding: 34px; } }
+
+@media only screen and (max-width: 420px) {
+  main .row-de-nosotros div .parrafo {
+    font-size: 15px;
+    margin-left: 31px; } }
+
+@media only screen and (max-width: 420px) {
+  main div div form {
+    margin-left: -7px;
+    margin-right: 0px; } }
+
+footer {
+  background-image: linear-gradient(blue, green);
+  margin: 0px; }
+  footer h3 {
+    padding-left: 100px; }
+  footer .redes-display {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 100px; }
+    footer .redes-display a .redes {
+      width: 60px;
+      padding-left: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: rgba(238, 223, 16, 0.9);
+      border: solid 1px; }
+    footer .redes-display a .redes:hover {
+      padding: 20px;
+      transform: skewY(25deg); }
+    footer .redes-display a .redes-display {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding: 7px;
+      padding-left: 100px; }
+
+@media only screen and (max-width: 420px) {
+  footer h3 {
+    padding-left: 100px; }
+  footer .redes-display {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 17px; }
+    footer .redes-display .redes {
+      width: 40px;
+      padding-left: 33px; } }
+
+.header {
+  position: fixed;
+  z-index: 4;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  height: 100px;
+  margin: 10px;
+  margin-top: 0%;
+  background-image: linear-gradient(to left, #66db66, yellow, blue);
+  display: grid;
+  grid-template-rows: 50px;
+  grid-column: 100px 10px 10px 10px 10px; }
+  .header div a .logotipo {
+    margin-top: 0%;
+    margin-left: -931px;
+    width: 100px;
+    height: 100px;
+    animation-name: paisaje-logo;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-duration: 5s; }
+
+@keyframes paisaje-logo {
+  0% {
+    transform: translateX(-50); }
+  50% {
+    transform: translateY(50); }
+  100% {
+    transform: rotate(360deg); } }
+
+.header nav ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 235px;
+  left: 279px;
+  padding-left: 100px;
+  margin: 10%; }
+  .header nav ul li {
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    width: 119px;
+    height: 109px;
+    transition: all 2s; }
+  .header nav ul li:hover {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: #dce7e7; }
+    .header nav ul li:hover .menu {
+      font-size: 17px;
+      color: black;
+      margin-left: 10px; }
+
+.header-de-contacto {
+  position: fixed;
+  z-index: 4;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  height: 100px;
+  margin-top: 0%;
+  background-image: linear-gradient(to left, #66db66, yellow, blue); }
+
+.header-de-contacto nav div ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 156px;
+  left: 433px;
+  padding-left: 100px;
+  margin: 5%; }
+
+.header-de-contacto .navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 7.5rem 1rem; }
+  .header-de-contacto .navbar div .a-de-imagen {
+    position: absolute;
+    margin-top: -233px;
+    margin-left: 5px; }
+    .header-de-contacto .navbar div .a-de-imagen .logotipo {
+      width: 90px;
+      height: 90px;
+      padding-top: 0px;
+      padding: 0;
+      animation-name: paisaje-logo;
+      animation-iteration-count: 5;
+      animation-timing-function: ease-in;
+      animation-duration: 5s; }
+
+@keyframes paisaje-logo {
+  0% {
+    transform: translateX(-50); }
+  50% {
+    transform: translateY(50); }
+  100% {
+    transform: rotate(360deg); } }
+
+@media only screen and (max-width: 420px) {
+  .header {
+    margin: 2px;
+    margin-top: 0%;
+    background-color: #4ec5e2;
+    height: 58px; }
+    .header div a .logotipo {
+      margin-left: -207px;
+      margin-bottom: 24cm;
+      width: 50px;
+      height: 50px; } }
+
+@media only screen and (max-width: 420px) {
+  .header-de-contacto .nav-de-contacto a img .logotipo {
+    margin-bottom: 13cm;
+    width: 50px;
+    height: 50px; } }
+
+@media (max-width: 450px) {
+  .header-de-contacto .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: self-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem; }
+    .header-de-contacto .navbar div .a-de-imagen {
+      position: absolute;
+      margin-top: -7px;
+      margin-left: 5px;
+      width: 50px;
+      height: 50px; }
+      .header-de-contacto .navbar div .a-de-imagen .logotipo {
+        margin-bottom: 13cm;
+        width: 70px;
+        height: 70px; } }
+
+@media (max-width: 450px) {
+  .header-de-contacto nav div ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 51px;
+    left: -174px;
+    padding-left: 213px;
+    margin: 5%;
+    background-color: #212277; }
+    .header-de-contacto nav div ul li {
+      list-style-type: none;
+      padding: -55px;
+      font-size: 15px;
+      margin-left: 19px;
+      width: 115px;
+      height: 65px;
+      transition: all 2s; }
+      .header-de-contacto nav div ul li .nav-link {
+        font-size: 15px;
+        color: #66db66;
+        margin-left: -65px; } }
+
+@media (max-width: 450px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(233, 220, 220, 0.836); } }
+
+@media (max-width: 450px) {
+  .navbar-light .navbar-nav .active .nav-link {
+    color: antiquewhite; } }
+
+nav {
+  padding-top: 5rem; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    position: wrap;
+    bottom: 156px;
+    left: 200px;
+    padding-left: 100px;
+    margin: 5%; }
+    nav ul li {
+      list-style-type: none;
+      padding: 10px;
+      font-size: 17px;
+      width: 100px;
+      height: 100px;
+      transition: all 2s; }
+      nav ul li:hover {
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        background-color: #e3ee82; }
+      nav ul li a {
+        font-size: 17px;
+        color: black;
+        margin-left: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .li-flex-movil {
+    list-style-type: none;
+    color: black;
+    padding: -5px;
+    font-size: 17px;
+    width: 74px;
+    height: 51px;
+    transition: all 2s; } }
+
+@media only screen and (max-width: 420px) {
+  .header .div-logo a .logotipo {
+    margin-bottom: 13cm;
+    width: 50px;
+    height: 50px; }
+  .header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35px;
+    bottom: 170px;
+    left: 39px;
+    padding-left: 18px;
+    margin: 10%; }
+    .header nav ul li {
+      list-style-type: none;
+      color: black;
+      padding: -5px;
+      width: 52px;
+      height: 1px;
+      transition: all 2s; }
+      .header nav ul li li:hover {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        background-color: #dce7e7; } }
+
+@media only screen and (max-width: 420px) {
+  .header nav ul li a {
+    font-size: 10px;
+    color: black;
+    margin-left: 10px; } }
+
+.position-relative, main .imagenCasaGift img {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 400px;
+  border: 10px solid black; }
+
+.position-relativeR, main div .preguntas .otrasPreguntas .primer-pregunta, main .carusel-de-fotos .carusel-de-fotos1 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 400px; }
+
+.flex-mobile {
+  display: flex;
+  flex-direction: row;
+  bottom: 81px;
+  left: 9px;
+  padding-left: 5px;
+  margin: 10%; }
+
+.flex-lista-menu {
+  list-style-type: none;
+  color: black;
+  padding: -5px;
+  font-size: 17px;
+  width: 74px;
+  height: 51px;
+  transition: all 2s; }
+
+.position-relative, main .imagenCasaGift img {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  border: 10px solid black; }
+
+.position-relativeR, main div .preguntas .otrasPreguntas .primer-pregunta, main .carusel-de-fotos .carusel-de-fotos1 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 400px; }
+
+.flex-mobile {
+  display: flex;
+  flex-direction: row;
+  bottom: 81px;
+  left: 9px;
+  padding-left: 5px;
+  margin: 10%; }
+
+.flex-lista-menu {
+  list-style-type: none;
+  color: black;
+  padding: -5px;
+  font-size: 17px;
+  width: 74px;
+  height: 51px;
+  transition: all 2s; }
+
+.mix-del-texto-principal, .texto-principal {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 27px;
+  padding: 30px; }
+
+.mezcla-del-logo-grande {
+  display: block;
+  margin: auto;
+  width: 290px;
+  border: 10px solid black;
+  animation-name: paisaje-logo;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 5s; }
+
+@media only screen and (max-width: 420px) {
+  header .logotipo {
+    margin-bottom: 13cm;
+    width: 50px;
+    height: 50px; } }

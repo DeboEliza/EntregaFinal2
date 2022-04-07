@@ -1,0 +1,61 @@
+footer{
+      background-image: linear-gradient( blue,green);
+      margin: 0px;
+
+        h3{padding-left: 100px;
+        }
+
+        .redes-display{ 
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content:space-between;
+            padding: 7px;
+            padding-left: 100px;
+
+           a{ 
+              .redes{
+                  width: 60px;
+                  padding-left: 20px; 
+                  width: 50px;
+                  height: 50px;
+                  background-color: rgba(238, 223, 16, 0.9);
+                  border: solid 1px;
+                } 
+               .redes:hover {
+                  padding: 20px;
+                  transform: skewY(25deg)
+                }
+            
+               .redes-display{ 
+                   display: flex;
+                  flex-direction: row-reverse;
+                  justify-content:space-between;
+                  padding: 7px;
+                  padding-left: 100px;
+                } 
+            }
+        }
+    }
+
+    @media only screen and (max-width: 420px){
+         footer{
+               h3{
+                    padding-left: 100px;     
+                }
+
+                    .redes-display{
+                       display: flex;
+                        flex-direction: row-reverse;
+                        justify-content:space-between;
+                        padding: 7px;
+                        padding-left: 17px; 
+            
+                        .redes{
+                            width: 40px;
+                            padding-left: 33px; 
+
+                        }
+                    }
+        }
+
+    }

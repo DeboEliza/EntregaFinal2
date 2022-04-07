@@ -1,0 +1,444 @@
+body,html {
+    margin: 0;
+    text-align: center; 
+    overflow-x: hidden;
+} 
+
+
+
+main{ padding-top: 10rem;
+    background-color:$bgcolorsecundario;
+       margin-bottom: -28px;
+       padding-bottom: 212px;
+       div{
+         article{
+                    .titulo-principal{
+                        font-size: 50px;
+                        text-align: center;
+                        margin-bottom: 5%;
+                        padding: 40px;
+                        padding-top: 80px;
+                        background-image: url(../assets/img/panel-solar1000.jpg);
+                        background-repeat: no-repeat;
+                        border: 8px solid black;
+
+                    }
+
+                    div{
+                         .logo-grande{
+                            display: block;
+                            margin: auto;
+                            width: 290px;
+                            border: 10px solid black;
+                            animation-name: paisaje-logo;
+                            animation-iteration-count: 1;
+                            animation-timing-function: ease-in;
+                            animation-duration: 5s;;
+                                }  
+                    }
+
+                   div{
+                       p{
+                         font-size:  $fuente-chica ;
+                         text-align: center;
+                         margin-top: 50px;
+                         padding: 30px;
+   
+                      }
+                    }
+                }
+            }
+        a{
+            img{width: 300px;
+                padding: 50px;
+                height: 0.5 cm;
+                width: 200px; height: 200px;
+                transition: all 2s;
+                margin-left: 50px;
+
+            }
+        }
+     
+    
+}
+
+.texto-principal{
+            @extend .mix-del-texto-principal;
+                           
+}
+
+
+
+.grid-container{width: 90%;
+    margin: -21px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap:10%;
+   
+}
+.foto-imagen{
+    padding: 5px;
+    height: 0.5cm;
+    width: 250px; height: 250px;
+    object-fit: cover;
+    transition: all 2s;
+    margin-left: 50px;
+    box-shadow: 0 0 20px #333;
+
+    .foto-imagen :hover {
+                  filter: opacity(0.9);
+                 transform: scale(1.04);
+                 background-color: rgb(202, 236, 235);
+    }
+
+}
+
+
+
+
+
+.primerTexto{
+    padding-top: 0%;
+    margin-left: 15%;
+    
+}
+
+
+
+main{ 
+    div{
+        div{
+            div{
+                table{
+                    thead{
+                        tr{
+                            th{
+                                font-size:$fuente-normal;
+                                color: $color-6;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        
+    }
+}
+
+            
+
+main{
+    .imagenCasaGift{
+                    img{ 
+                        @extend .position-relative;
+                         
+                    }
+    }
+}
+
+main{
+    div{
+        .preguntas{
+            .otrasPreguntas{
+                .primer-pregunta{ 
+                    @extend .position-relativeR;
+                    margin-right: auto;
+                    padding-left: 10%;
+                } 
+            } 
+        }
+    }
+}
+
+main{
+    .carusel-de-fotos{
+        .carusel-de-fotos1{
+            @extend .position-relativeR;
+            margin-right: auto;
+            padding-left: 10%;
+
+        }
+    }
+}
+  
+main{
+    .video{ 
+        .videoPosicion{
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 150px;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+    }
+}
+
+main{
+    div{
+        div{
+            form{
+                margin-left: 138px;
+                margin-right: -659px;
+            }
+        }
+    }
+}
+
+main{
+    div{
+        .row{
+            div{
+                .card{
+                    border: 15px solid #6eff0059;
+                    border-radius: 2.25rem;
+                }
+            }
+        }
+    }
+}
+
+main{
+    div{
+        spam{
+            .tabla{
+                   margin-left: 500px;
+                   width: 0px;
+            }
+        }
+    }
+}
+
+main{
+    .row-de-nosotros{
+        margin-left: 0px;
+       padding-right: 20px;
+                  div{
+                      .parrafo{
+                        font-size:$fuente-mediana;
+                      }
+                  }
+                      
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    main{
+        div{
+            spam{
+                .tabla{
+                       margin-left: -19px;
+                       width: 0px;
+                }
+            }
+        }
+    }
+    main{
+        div{
+            .row{
+                div{
+                    .card{
+                        border: 15px solid #6eff0059;
+                       border-radius: 2.25rem; ;
+                                               
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+main{
+    .row{ margin-left: 97px;
+        padding-right: 18px;
+        .card{  border: 15px solid #6eff0059;
+            border-radius: 2.25rem;
+                    
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+   main{
+        .row{ margin-left: 2px;
+               padding-right: 18px;
+                .card{  border: 15px solid #6eff0059;
+                    border-radius: 2.25rem; 
+                           .card-body{
+                                 .card-text{
+                                        font-size: 13px;
+                                 }
+                           }
+                 }
+         }
+    }
+}
+@media only screen and (max-width: 420px){
+    main{ padding-top: 3rem;
+        background-color:$bgcolorsecundario;
+             div{
+                     article{
+                              .titulo-principal{ 
+                                font-size: $fuente-mediana;
+                                color: $colorsecundario;
+                                text-align: center;
+                                padding: 6px;
+                                padding-top: 22px;
+                                background-color: beige;
+                                border: 5px solid black;;
+                                }                            
+                         }
+                 }
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+    main{  padding-top: 7rem;
+        div{
+            article{
+                    div{
+                        .texto-principal{
+                            text-align: center;
+                            margin-top: -3px;
+                            font-size: $fuente-de15;
+                            padding: 11px;
+                        }
+                        .logo-grande{
+                            display: block;
+                            margin:auto;
+                            width: 121px;
+                            border: 5px solid black;
+                        }  
+                    }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px){
+    main{  padding-top: 7rem;
+        .grid-container{
+                      width: 90%;
+                       margin: 38px;
+                       margin-left: 120px;
+                       display: grid;
+                       grid-template-columns: 212px;
+                       grid-template-rows: 230px 240px 470px;
+                       grid-column-gap: 10%;
+    
+                .grid-item{
+
+                    .foto-imagen{
+                        padding: 5px;
+                        height: 0.5cm;
+                        width: 100px; height: 100px;
+                        transition: all 2s;
+                        margin-left: -119px;
+                        box-shadow: 0 0 20px #333;
+
+                    }
+
+                    .primerTexto{
+                        text-align: center;
+                        margin-top: -33px;
+                       font-size: $fuente-de15;
+                       padding: 42px;
+                       margin-left: -109px;    
+                
+                    }
+                }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+      main{
+          .imagenCasaGift{  margin-left: -209px;
+                           img{
+                          width: 300px;
+                          height: 200px;
+                          
+                            }
+          }
+      }
+}
+@media only screen and (max-width: 420px){
+       main{
+           div{
+               div{
+                   form{
+                    margin-left: -7px;
+                    margin-right: 0px;
+                   }
+               }
+           }
+       }
+}
+
+@media only screen and (max-width: 420px){
+
+    main{ 
+        div{
+            .video{ margin-left: -412px;
+                width: 224px;
+                height: 372px;
+                          .videoPosicion{
+                              padding-left:55px;
+                              padding-right: 211px;
+                              margin-bottom: -37px;
+                              position: relative;
+                              padding-bottom: 121px;
+                              margin-bottom: 150px;
+                              margin-left: 380px;
+                             }
+                 
+            }
+        }                                     
+    }
+}
+
+@media only screen and (max-width: 420px){
+    main{
+        div{
+            .texto-principal{
+                  margin-top: -38px;
+                  font-size: $fuente-de15;
+                  padding: 34px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    main{
+        .row-de-nosotros{
+                      div{
+                          .parrafo{
+                            font-size:$fuente-de15;
+                            margin-left: 31px;
+                          }
+                      }
+                          
+        }
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+        main{
+            div{
+                div{
+                    form{
+                        margin-left: -7px;
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+}

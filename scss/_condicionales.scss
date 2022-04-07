@@ -1,0 +1,29 @@
+$vista:mobile;
+
+header{
+@if $vista == desktop {
+	@media only screen and (min-width:1024px){
+        width: 100px; height: 100px;
+		}
+	} @else if $vista == mobile {
+        @media only screen and (max-width:420px){
+
+            .logotipo{ 
+                margin-bottom: 13cm;
+                width: 50px;
+                height: 50px;
+            }
+        }
+	} @else {
+		.logotipo{ 
+            margin-bottom: 13cm;
+            width: 60px;
+            height: 60px;
+        }
+	}
+}
+
+
+                 
+               
+          
